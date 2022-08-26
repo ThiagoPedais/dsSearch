@@ -1,3 +1,5 @@
+export type Platform = 'XBOX' | 'PC' | 'PLAYSTATION';
+
 export type RecordsResponse = {
     content: RecordItem[];
     totalPages: number;
@@ -13,4 +15,9 @@ export type RecordItem = {
     genreName: string;
 };
 
-export type Platform = 'XBOX' | 'PC' | 'PLAYSTATION';
+export type Game = {
+    id: number;
+    title: string;
+    platform: Platform;
+};
+
