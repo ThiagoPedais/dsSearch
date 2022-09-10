@@ -45,11 +45,11 @@ export const pieOptions  = {
       show: false,
     },
     plotOptions: {
-      bar: {
-        borderRadius: 10,
+      bar: {        
+        borderRadius: 15,
         horizontal: true,
-        endingShape: "rounded",
-        startingShape: "rounded",
+        // endingShape: "rounded",
+        // startingShape: "rounded",
         barHeight: "50px",
       },
     },

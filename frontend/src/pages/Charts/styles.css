@@ -1,5 +1,6 @@
 .chart-container {
     display: flex;
+    justify-content: center;
   }
   
   .top-related {
