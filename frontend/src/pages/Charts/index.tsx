@@ -23,7 +23,7 @@ const initialPieData = {
     series: []
 };
 
-const BASE_URL = 'http://localhost:8080';
+const BASE_URL = 'https://dssearch-thiagopedais.herokuapp.com';
 
 
 export default function Charts() {
